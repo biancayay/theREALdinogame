@@ -630,14 +630,14 @@ MonoBehaviour:
     spawnChance: 0.08
   - prefab: {fileID: 2516984111716885151, guid: d62aaf3f3f051414283de212b93f3325, type: 3}
     spawnChance: 0.05
-  - prefab: {fileID: 2516984111716885151, guid: 1581408f2db641c47b4f729be2f2b667, type: 3}
+  - prefab: {fileID: 8997239565107366626, guid: 1581408f2db641c47b4f729be2f2b667, type: 3}
     spawnChance: 0.04
-  - prefab: {fileID: 2516984111716885151, guid: 08801d1f6536c034e831f25281c40b31, type: 3}
+  - prefab: {fileID: 8890687338703205581, guid: 08801d1f6536c034e831f25281c40b31, type: 3}
     spawnChance: 0.03
-  - prefab: {fileID: 2516984111716885151, guid: 876f2579f9f8caa4f81eaac1495160b1, type: 3}
+  - prefab: {fileID: 1893209276281782601, guid: 876f2579f9f8caa4f81eaac1495160b1, type: 3}
     spawnChance: 0.03
-  - prefab: {fileID: 2516984111716885151, guid: 4ff4e561170978a40b7a2662f7d30796, type: 3}
-    spawnChance: 0.02
+  - prefab: {fileID: 8260087234641396711, guid: 4ff4e561170978a40b7a2662f7d30796, type: 3}
+    spawnChance: 0.01
   minSpawnRate: 1
   maxSpawnRate: 2
 --- !u!4 &531668466
@@ -1339,7 +1339,7 @@ GameObject:
   - component: {fileID: 1403983228}
   - component: {fileID: 1403983227}
   m_Layer: 5
-  m_Name: High
+  m_Name: HighSign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
