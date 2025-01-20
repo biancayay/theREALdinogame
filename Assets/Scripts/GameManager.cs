@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour
     private Player player;
     private Spawner spawner;
 
-    private float score;
+    public float score { get; private set; }
 
     private void Awake()
     {
@@ -76,9 +76,9 @@ public class GameManager : MonoBehaviour
         gameSpeed += gameSpeedIncrease * Time.deltaTime;
         score += gameSpeed * Time.deltaTime;
         scoreText.text = Mathf.FloorToInt(score).ToString("D5");
-        if (score % 100 == 0)
+        if (score % 10 == 0)
         {
-            FlashingScore();
+            StartCoroutine(FlashingScore());
         }
     }
 
@@ -96,9 +96,14 @@ public class GameManager : MonoBehaviour
 
     }
 
-    private void FlashingScore()
+    private IEnumerator FlashingScore()
     {
         scoreText.gameObject.SetActive(false);
+        yield return new WaitForSeconds(1);
+        scoreText.gameObject.SetActive(true);
+        yield return new WaitForSeconds(1);
+        scoreText.gameObject.SetActive(false);
+        yield return new WaitForSeconds(1);
         scoreText.gameObject.SetActive(true);
     }
 
@@ -115,6 +120,5 @@ public class GameManager : MonoBehaviour
         gameOverText.gameObject.SetActive(true);
 
         UpdateHighScore();
-
     }
 }
