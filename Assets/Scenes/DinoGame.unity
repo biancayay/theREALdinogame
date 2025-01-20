@@ -617,19 +617,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - prefab: {fileID: 4605788435712928984, guid: ccaf5dc79622c30468cab3bb2042dc99, type: 3}
-    spawnChance: 0.2
-  - prefab: {fileID: 5057023941066642723, guid: ca61f66dbbd07aa47aec925c5690062a, type: 3}
     spawnChance: 0.18
-  - prefab: {fileID: 1820951656582699536, guid: b83b508f0737f1444ae190206b952dc6, type: 3}
+  - prefab: {fileID: 5057023941066642723, guid: ca61f66dbbd07aa47aec925c5690062a, type: 3}
     spawnChance: 0.16
-  - prefab: {fileID: 2961247848700035109, guid: ab1a80dda947f9146bad054c03dc0a64, type: 3}
+  - prefab: {fileID: 1820951656582699536, guid: b83b508f0737f1444ae190206b952dc6, type: 3}
     spawnChance: 0.14
-  - prefab: {fileID: 2837196770275441786, guid: adf9156d48836f7489e9f3cd5fd240b7, type: 3}
+  - prefab: {fileID: 2961247848700035109, guid: ab1a80dda947f9146bad054c03dc0a64, type: 3}
     spawnChance: 0.12
-  - prefab: {fileID: 8292044902450751327, guid: 2a5c323e65b400544ada2d53e14089f7, type: 3}
+  - prefab: {fileID: 2837196770275441786, guid: adf9156d48836f7489e9f3cd5fd240b7, type: 3}
     spawnChance: 0.1
+  - prefab: {fileID: 8292044902450751327, guid: 2a5c323e65b400544ada2d53e14089f7, type: 3}
+    spawnChance: 0.08
   - prefab: {fileID: 2516984111716885151, guid: d62aaf3f3f051414283de212b93f3325, type: 3}
     spawnChance: 0.05
+  - prefab: {fileID: 2516984111716885151, guid: 1581408f2db641c47b4f729be2f2b667, type: 3}
+    spawnChance: 0.04
+  - prefab: {fileID: 2516984111716885151, guid: 08801d1f6536c034e831f25281c40b31, type: 3}
+    spawnChance: 0.03
+  - prefab: {fileID: 2516984111716885151, guid: 876f2579f9f8caa4f81eaac1495160b1, type: 3}
+    spawnChance: 0.03
+  - prefab: {fileID: 2516984111716885151, guid: 4ff4e561170978a40b7a2662f7d30796, type: 3}
+    spawnChance: 0.02
   minSpawnRate: 1
   maxSpawnRate: 2
 --- !u!4 &531668466
