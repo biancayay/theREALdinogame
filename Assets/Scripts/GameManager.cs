@@ -98,7 +98,8 @@ public class GameManager : MonoBehaviour
 
     private void FlashingScore()
     {
-        score
+        scoreText.gameObject.SetActive(false);
+        scoreText.gameObject.SetActive(true);
     }
 
     public void GameOver()
