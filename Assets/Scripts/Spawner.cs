@@ -45,4 +45,13 @@ public class Spawner : MonoBehaviour
 
         Invoke(nameof(Spawn), Random.Range(minSpawnRate, maxSpawnRate));
     }
+
+    private void Update() 
+    {
+        if (GameManager.Instance.score % 200 == 0) 
+        {
+            minSpawnRate++;
+            maxSpawnRate++;
+        }
+    }
 }

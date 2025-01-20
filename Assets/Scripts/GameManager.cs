@@ -76,7 +76,7 @@ public class GameManager : MonoBehaviour
         gameSpeed += gameSpeedIncrease * Time.deltaTime;
         score += gameSpeed * Time.deltaTime;
         scoreText.text = Mathf.FloorToInt(score).ToString("D5");
-        if (score % 10 == 0)
+        if (score % 100 == 0)
         {
             StartCoroutine(FlashingScore());
         }
